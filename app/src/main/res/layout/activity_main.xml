@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#0A0B0D">
+
+    <!-- Logo / App Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextPilot"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Companion"
+        android:textSize="14sp"
+        android:textColor="#8899AA"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Scan Button -->
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:text="Scan Campaign QR Code"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#0066FF"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Instructions -->
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="1. Create a campaign on TextPilot Desktop\n2. Select 'iPhone' as the platform\n3. Scan the QR code with this app\n4. Messages send from your phone number"
+        android:textSize="13sp"
+        android:textColor="#667788"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginTop="24dp" />
+
+    <!-- Stats -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp"
+        android:textColor="#4488AA"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>

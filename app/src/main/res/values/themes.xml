@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TextPilot" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#0066FF</item>
+        <item name="colorPrimaryVariant">#0052CC</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#22C55E</item>
+        <item name="colorSecondaryVariant">#16A34A</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">#0A0B0D</item>
+        <item name="android:navigationBarColor">#0A0B0D</item>
+        <item name="android:windowBackground">#0A0B0D</item>
+    </style>
+</resources>
